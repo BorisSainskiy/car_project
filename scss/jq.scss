@@ -1,0 +1,82 @@
+.model-summary {
+  width: 300px;
+  height: 200px;
+  background-color: #7fffd4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+
+  .model-name {
+    font-size: 25px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+  }
+
+  .model-price {
+    color: green;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .button {
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 12px;
+    text-align: center;
+    width: 80px;
+    background-color: blue;
+    text-decoration: none;
+    padding: 8px 25px;
+    border: none;
+    margin-bottom: 10px;
+  }
+}
+
+#autoForm {
+  width: 100%;
+  height: 150px;
+  border: 5px solid black;
+  .row {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .colorSelector {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: cadetblue;
+  }
+  .colorItem {
+    border: none;
+    border-radius: 50%;
+    width: 100px;
+  }
+
+  .colorBlue {
+    background-color: blue;
+  }
+
+  .colorWhite {
+    background-color: white;
+  }
+
+  .colorOrange {
+    background-color: orange;
+  }
+
+  .colorBlack {
+    background-color: black;
+  }
+}
